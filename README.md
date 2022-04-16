@@ -6,9 +6,9 @@ This Skeleten was created by Umar Uzman
 
 ## Templates
 
-Extend Normal components to BasicComponentTemplate
-Extend Form Components to FormTemplate
-Extend Forms in Modal to ModalFormTemplate
+- Extend Normal components to BasicComponentTemplate
+- Extend Form Components to FormTemplate
+- Extend Forms in Modal to ModalFormTemplate
 
 ## Layout
 
