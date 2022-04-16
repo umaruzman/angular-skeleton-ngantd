@@ -4,18 +4,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This project uses NG-ZORRO!
 This Skeleten was created by Umar Uzman
 
-##Templates
+## Templates
 
 Extend Normal components to BasicComponentTemplate
 Extend Form Components to FormTemplate
 Extend Forms in Modal to ModalFormTemplate
 
-##Layout
+## Layout
 
 Use one-column-layout for main module
 
 
-##Modules
+## Modules
 
 Modules Folder has 2 Primary Modules
 
