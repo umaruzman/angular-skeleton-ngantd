@@ -1,8 +1,8 @@
 # RmsFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
-This project uses NG-ZORRO!
-This Skeleten was created by Umar Uzman
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
+- This project uses NG-ZORRO!
+- This Skeleten was created by Umar Uzman
 
 ## Templates
 
@@ -22,4 +22,4 @@ Modules Folder has 2 Primary Modules
 - AuthModule - It is the main module for auth related content (Login, Register)
 - MainModule - It is the main module of the application where all other functionalities resides.
 
-SharedModule exports the most commonly used modules among most components, therfor importing this component on the component that need it will provide basic support for most Ng-Zorro Feature.
+SharedModule exports the most commonly used modules among most components, therfore importing this component on the component that need it will provide basic support for most Ng-Zorro Feature.
