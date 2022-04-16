@@ -1,4 +1,4 @@
-# RmsFrontend
+# **Angular Skeleton** by UMAR UZMAN
 
 - This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
 - This project uses NG-ZORRO!
