@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "rms-frontend": {
+    "angular-antd-skeleton": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/rms-frontend",
+            "outputPath": "dist/angular-antd-skeleton",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -78,10 +78,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "rms-frontend:build:production"
+              "browserTarget": "angular-antd-skeleton:build:production"
             },
             "development": {
-              "browserTarget": "rms-frontend:build:development"
+              "browserTarget": "angular-antd-skeleton:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -89,7 +89,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "rms-frontend:build"
+            "browserTarget": "angular-antd-skeleton:build"
           }
         },
         "test": {
@@ -113,5 +113,5 @@
       }
     }
   },
-  "defaultProject": "rms-frontend"
+  "defaultProject": "angular-antd-skeleton"
 }
