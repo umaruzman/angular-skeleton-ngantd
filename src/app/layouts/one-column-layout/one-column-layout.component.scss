@@ -67,8 +67,28 @@
     padding: 0;
     background: #fff;
     box-shadow: 0 1px 4px rgba(0,21,41,.08);
+    display: flex;
+    justify-content: space-between;
   }
   
+
+  .header-right {
+    margin-right: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .user-name {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    color: rgb(71, 71, 71);
+    cursor: pointer;
+  }
+
+  nz-avatar {
+    cursor: pointer;
+  }
+
   nz-content {
     margin: 24px;
   }
@@ -79,3 +99,15 @@
     height: 100%;
   }
   
+  .profile-context{
+    width: 8rem;
+    li {
+      display: flex;
+      i {
+        margin: 0.3rem;
+      }
+      span {
+        margin: 0.3rem;
+      }
+    }
+  }

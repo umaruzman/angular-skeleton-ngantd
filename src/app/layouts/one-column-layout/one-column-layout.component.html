@@ -37,12 +37,21 @@
     <nz-layout>
       <nz-header>
         <div class="app-header">
-          <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
+          <div>
+            <span class="header-trigger" (click)="isCollapsed = !isCollapsed">
               <i class="trigger"
                  nz-icon
                  [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
               ></i>
-          </span>
+            </span>
+          </div>
+
+          <div class="header-right">
+            <span class="user-name" nz-dropdown nzTrigger="click" [nzDropdownMenu]="profileContext">
+              Umar Uzman
+            </span>
+            <nz-avatar nzText="U" nz-dropdown nzTrigger="click" [nzDropdownMenu]="profileContext"></nz-avatar>
+          </div>
         </div>
       </nz-header>
       <nz-content>
@@ -52,4 +61,11 @@
       </nz-content>
     </nz-layout>
   </nz-layout>
+
+  <nz-dropdown-menu #profileContext="nzDropdownMenu">
+    <ul nz-menu class="profile-context">
+      <li nz-menu-item><i nz-icon nzType="user" nzTheme="outline"></i> <span>Profile</span></li>
+      <li nz-menu-item><i nz-icon nzType="logout" nzTheme="outline"></i> <span>Logout</span></li>
+    </ul>
+  </nz-dropdown-menu>
   
